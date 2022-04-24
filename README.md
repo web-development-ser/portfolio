@@ -1,0 +1,3 @@
+## Aviso: Esse trabalho não está concluído, a utilização dele não é permitida temporiamente. Em breve ele será concluído, as devidas informações serão passadas pelo aquivo README.md. Esse trabalho estará disponível apenas como uma cópia reserva.
+
+### Cópias do trabalho, como clonagem, são permitidas, desde que todas as informações inseridas sejam trocadas, como nomes, email e entre outros dados, a não alteração dos dados será considerado crime sobre lei de roubo e pleonasmo de conteúdo.

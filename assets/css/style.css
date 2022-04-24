@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Oswald:wght@400;700&family=Source+Code+Pro:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Mulish&display=swap');
+
+:root {
+  --bg-tema:#262A4B;
+}
+* {
+  padding: 0;
+  margin: 0;
+  
+  box-sizing: border-box;
+}
+body {
+  background-color: #1B0F25;
+}
+/* 01004E */
+
+
+/* Fontes de texto. Medidas feitas em multitelas. */
+.navbar {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 0 0 17px 17px;
+  margin: 0 1px;
+  
+  border-bottom: 1px solid #262A4B /* #1D1A5F */;
+}
+i { /* Estilização fraca... Básico.*/
+  font-size: 20px;
+  color: white;
+}
+
+
+/* Ícone do menu, onde estilizamos o conteúdo. */
+label:hover {
+  background-color: red;
+}
+label {
+  padding: 4px 8px;
+  padding-top: 8px;
+  border-radius: 3px;
+}
+
+/* Opções do menu, onde colocamos a modificação, do menu como o brilho ao redor. */
+.menu li {
+  display: inline-block;
+  color: #fff; /* Branco. */
+  padding: 7px 30px;
+  border: 3px solid #3c67e3;
+  width: 70%;
+  border-radius: 10px;
+  
+  text-align: center;
+}
+.list li:hover {
+  animation: pulsate 1s ease-in-out;
+}
+@keyframes pulsate {
+  0% {
+    box-shadow:
+    0 0 25px #5ddcff,
+    0 0 50px #4e00c2;
+  }
+}
+
+
+.conteiner p {
+  font-family: 'Mulish', sans-serif;
+  color: white;
+  font-size: 30px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* Por medidas. */
+  margin-top: -100px;
+  
+  
+  height: 100vh;
+  
+  border: inherit; /* remov - dep.. */
+  
+}
+.conteiner .nome {
+  font-size: 60px;
+  
+  font-family: 'Source Code Pro', monospace;
+  
+}
+.conteiner .nome-two {
+  margin-top: -40px;
+}
+
